@@ -8,3 +8,21 @@
     margin-bottom: 30px;
   }
 }
+
+/*.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}*/
+
+/*$ca: 20px;
+$p: 3;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $ca;
+
+  &__item {
+    flex-basis: calc((100% - (($p - 1) * $ca)) / $p);
+  }
+}*/
