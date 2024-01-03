@@ -1,0 +1,29 @@
+.contacts {
+  display: flex;
+  margin-left: auto;
+  &__link {
+    display: flex;
+    align-items: center;
+
+    color: $colors-text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.28px;
+
+    transition: color 250ms $timing-function;
+    &:focus,
+    &:hover {
+      color: $colors-selection;
+    }
+  }
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+    transition: fill 250ms $timing-function;
+  }
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+}

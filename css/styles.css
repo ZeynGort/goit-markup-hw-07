@@ -18,12 +18,7 @@ body {
   color: var(--head-color);
   margin: 0;
 }
-h1,
-h2,
-h3,
-h4,
-p,
-ul {
+h1,h2,h3,h4,p,ul {
   margin: 0;
   padding: 0;
 }
@@ -624,7 +619,15 @@ header {
 .social-networks__link:hover .social-networks__icon {
   fill: #fff;
 }
-
+.social-networks--dark {
+  margin-top: 20px;
+}
+.social-networks__icon--dark {
+  fill: #fff;
+}
+.social-networks__link--dark {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 /*clients*/
 
 .clients {
@@ -677,14 +680,11 @@ header {
 }
 
 /*portfolio.html*/
-/*portfolio*/
+/*portfolio-navigation*/
 
 .portfolio {
   padding-top: 94px;
 }
-
-/*navigation*/
-
 .portfolio__list {
   display: flex;
   justify-content: center;
@@ -719,7 +719,7 @@ header {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/*grid*/
+/*portfolio-grid*/
 
 .grid {
   display: flex;
@@ -731,6 +731,9 @@ header {
 .grid__item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
+
+/*portfolio-card*/
+
 .card {
   display: block;
 
@@ -850,15 +853,7 @@ footer {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-.social-networks--dark {
-  margin-top: 20px;
-}
-.social-networks__icon--dark {
-  fill: #fff;
-}
-.social-networks__link--dark {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+
 
 /*subscribe*/
 

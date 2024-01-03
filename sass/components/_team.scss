@@ -1,0 +1,49 @@
+.team {
+  background: $colors-background;
+  padding-top: 94px;
+  &__head {
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+  }
+  &__list {
+    display: flex;
+  }
+  &__item {
+    background-color: $colors-white;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__inner {
+    padding: 30px 0;
+  }
+  &__name {
+    text-align: center;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+  }
+  &__profession {
+    margin-top: 10px;
+    text-align: center;
+
+    color: $colors-text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+  }
+}
